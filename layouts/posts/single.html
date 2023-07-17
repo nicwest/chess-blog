@@ -7,16 +7,38 @@
   {{ .Content }}
   </article>
 
+  <section class="tags">
   <p> Tags: 
-{{ with .Param "tags" }}
-  {{ $len := len .}}
-  {{ range $i, $tag := (. | sort) }} 
-  {{ with $.Site.GetPage (printf "/%s/%s" "tags" $tag) }}
-    <a href="{{ .Permalink }}">{{ $tag | urlize }}</a>{{ if ne (add $i 1) $len }}, {{end}}
+  {{ with .Param "tags" }}
+    {{ $len := len .}}
+    {{ range $i, $tag := (. | sort) }} 
+    {{ with $.Site.GetPage (printf "/%s/%s" "tags" $tag) }}
+      <a href="{{ .Permalink }}">{{ $tag | urlize }}</a>{{ if ne (add $i 1) $len }}, {{end}}
+    {{ end }}
+    {{ end }}
   {{ end }}
-  {{ end }}
-{{ end }}
-</p>
+  </p>
+  </section>
+
+  <section class="comments">
+  <script src="https://giscus.app/client.js"
+          data-repo="nicwest/chess-blog"
+          data-repo-id="R_kgDOJ8Ljyg"
+          data-category="Posts"
+          data-category-id="DIC_kwDOJ8Ljys4CX7hG"
+          data-mapping="pathname"
+          data-strict="0"
+          data-reactions-enabled="1"
+          data-emit-metadata="0"
+          data-input-position="top"
+          data-theme="noborder_light"
+          data-lang="en"
+          data-loading="lazy"
+          crossorigin="anonymous"
+          async>
+  </script>
+  </section>
+
 {{ end }}
 
 {{ define "scripts"}}
