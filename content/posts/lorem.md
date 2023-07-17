@@ -1,17 +1,20 @@
 ---
 title: "Lorem"
 date: 2023-07-16T16:39:38+01:00
+tags: 
+- foo
+- bar
 draft: true
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus posuere
-aliquam molestie. Pellentesque vel consectetur neque. Ut ut ante et eros
+*aliquam molestie*. Pellentesque vel consectetur neque. Ut ut ante et eros
 imperdiet elementum. Morbi vitae imperdiet felis. Nunc fringilla turpis eu
 orci condimentum sodales. Sed eros purus, dictum et porta ut, egestas eu odio.
-Suspendisse at purus libero. Sed ac nunc sit amet turpis fringilla venenatis.
+Suspendisse at [purus libero](https://lichess.org). Sed ac nunc sit amet turpis fringilla venenatis.
 Nam velit risus, pellentesque in diam nec, finibus viverra justo. Sed
 porttitor metus a blandit molestie. Aliquam molestie scelerisque enim eget
-imperdiet. Etiam facilisis velit id ex laoreet lobortis nec ut nisl. Maecenas
+imperdiet. **Etiam facilisis velit id** ex laoreet lobortis nec ut nisl. Maecenas
 posuere elit vel laoreet feugiat. Sed porta lacus leo, vel semper nibh
 consectetur laoreet.
 
@@ -21,9 +24,6 @@ Main title
 Sub title
 ---------
 
-###Sub sub title
-
-####Sub sub sub title
 
 Cras ac iaculis ex. Curabitur vel nisl erat. Mauris lacus mauris, cursus ac
 commodo at, sollicitudin eu lorem. Nulla gravida suscipit ultricies.
@@ -72,6 +72,19 @@ molestie dignissim magna, eu vestibulum elit. Praesent turpis massa, vehicula
 eget odio ultrices, dictum mattis nisl. Integer nec commodo felis. Proin vel
 sodales sapien, id posuere arcu.
 
+* Maecenas sed sem non lorem vulputate viverra eu eget est.
+* Donec in ligula maximus, imperdiet quam sit amet, egestas lectus.
+* Suspendisse nec elit sed ligula pulvinar faucibus ut sed risus.
+* Sed volutpat nunc vitae venenatis ullamcorper.
+* Duis blandit velit et tellus varius, ac rhoncus velit pretium.
+* Fusce non nisi euismod, finibus sem sit amet, consectetur est.
+
+| Book                              | Author    | Helpful? | Enjoyable? | ECF   | FIDE | Lichess |
+|-----------------------------------|-----------|----------|------------|-------|------|---------|
+| The Life and Games of Mikhail Tal | M Tal     | yes      | yes        | 0?    | 0?   | 1000    |
+| My 60 Memorable Games             | B Fischer | no       | no         | 1388p | 0?   | 1430    |
+|                                   |           |          |            |       |      |         |
+
 Etiam lorem lacus, fringilla eget pretium quis, suscipit volutpat lectus.
 Phasellus ac purus dapibus, vestibulum quam in, auctor leo. Pellentesque
 rhoncus consequat odio et vestibulum. Cras scelerisque sapien purus, et
@@ -83,9 +96,37 @@ facilisis et, tincidunt ut dolor. Praesent quis euismod dolor. Vestibulum
 auctor mi nec risus ultricies, sed tempus odio faucibus. In hac habitasse
 platea dictumst.
 
+
+1. Etiam cursus orci vitae auctor molestie.
+2. Morbi et nulla vel diam laoreet ultricies.
+3. Pellentesque aliquam orci a mollis pretium.
+
+{{< fen >}}
+8/pR3R2/2pk4/8/3p4/3PKp2/PPP3rP/5N2 w - - 0 37
+{{</ fen >}}
+
 Maecenas rutrum in massa a euismod. Morbi faucibus suscipit odio. Vestibulum
 congue ut tellus at blandit. Nulla facilisi. Curabitur condimentum dictum
 convallis. In dapibus dolor pretium auctor consequat. Morbi aliquam quam nibh,
 quis vulputate leo varius sed. Vivamus nisl turpis, semper quis ex id,
 vulputate consequat felis. Suspendisse quam tortor, varius vitae porta at,
 accumsan nec ante. 
+
+![This fine](https://static01.nyt.com/images/2016/08/05/us/05onfire1_xp/05onfire1_xp-superJumbo-v2.jpg)
+
+
+Vivamus pellentesque porttitor est, a sodales dolor interdum non. Nullam
+dictum ante vitae ipsum pretium mollis. Nunc vel cursus augue. Duis est nisi,
+blandit in magna ut, fringilla lacinia erat. Proin pretium ultricies velit,
+vitae aliquam tortor suscipit et. Vivamus id laoreet felis. Curabitur quam mi,
+fermentum id consectetur ac, ornare sit amet velit. Suspendisse eu lorem vel
+est consequat maximus. Aliquam in leo ornare, dignissim sapien nec, varius
+erat. Aenean vel quam porttitor, dignissim neque sed, mollis est. Phasellus
+tempor tempor gravida. Nullam quis bibendum magna. 
+
+{{< gallery >}}
+https://media.tenor.com/vxFNoJHV3I4AAAAC/chiquichico.gif
+https://m.media-amazon.com/images/I/51V75tQGAAL.__AC_SX300_SY300_QL70_ML2_.jpg
+/imgs/kermit-rain.jpg
+https://media.tenor.com/TtuWYyYO1XkAAAAC/monkey-look-the-other-way.gif
+{{</ gallery >}}

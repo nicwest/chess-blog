@@ -1,0 +1,16 @@
+{{ define "main" }}
+<h1>Tags: {{.Title}}</h1>
+
+<p><a href="/tags/">See all tags here</a></p>
+
+<div>
+{{ range (.Pages.ByDate).Reverse }}
+  <p class="post-meta">
+    <strong class="title-font">posted:</strong> {{ .PublishDate.Format "2006-01-02 15:04" }}
+  </p>
+  <h2>
+    <a class="post-link" href="{{ .Permalink }}">{{.Title}}</a>
+  </h2>
+{{ end }}
+</div>
+{{ end }}

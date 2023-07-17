@@ -1,3 +1,6 @@
-baseURL = 'https://nicwest.github.io/chess-blog/'
+baseURL = 'https://nicwest.github.io/'
 languageCode = 'en-gb'
 title = 'Chess blog!'
+
+[taxonomies]
+    tag = 'tags'

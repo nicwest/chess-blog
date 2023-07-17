@@ -1,19 +1,25 @@
 {{ define "main" }}
-  <main aria-role="main">
-    <header class="homepage-header">
-      <h1>{{ .Title }}</h1>
-      {{ with .Params.subtitle }}
-      <span class="subtitle">{{ . }}</span>
-      {{ end }}
-    </header>
-    <div class="homepage-content">
-      <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
-      {{ .Content }}
-    </div>
-    <div>
-      {{ range first 10 .Site.RegularPages }}
-          {{ .Render "summary" }}
-      {{ end }}
-    </div>
-  </main>
+  <article>
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.subtitle }}
+  <span class="subtitle">{{ . }}</span>
+  {{ end }}
+  {{ .Content }}
+  </article>
+
+  <p> Tags: 
+{{ with .Param "tags" }}
+  {{ $len := len .}}
+  {{ range $i, $tag := (. | sort) }} 
+  {{ with $.Site.GetPage (printf "/%s/%s" "tags" $tag) }}
+    <a href="{{ .Permalink }}">{{ $tag | urlize }}</a>{{ if ne (add $i 1) $len }}, {{end}}
+  {{ end }}
+  {{ end }}
+{{ end }}
+</p>
+{{ end }}
+
+{{ define "scripts"}}
+{{ $built := resources.Get "js/chess.js" | js.Build "chess.js" }}
+<script src="{{ $built.RelPermalink }}" defer></script>
 {{ end }}

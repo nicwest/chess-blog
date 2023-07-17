@@ -1,0 +1,8 @@
+<ul class="gallery">
+  {{ range split ( trim .Inner "\n") "\n" }}
+  <li>
+    <a href="{{ . }}" target="_blank"><img src="{{ . }}" /></a>
+  </li>
+  {{ end }}
+  <li></li>
+</ul>

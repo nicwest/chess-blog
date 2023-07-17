@@ -1,6 +1,190 @@
+
+$c-fg: #000;
+$c-bg: #F6F1E9;
+$c-bg-light: lighten($c-bg, 10%);
+$c-one: #FFD93D;
+$c-one-light: lighten($c-one, 10%);
+$c-one-dark: darken($c-one, 10%);
+$c-two: #FF8400;
+$c-three: #4F200D; 
+
+$small: 500px;
+$medium: 900px;
+
+
+$lpv-site-hue: 37 !default;
+$lpv-accent: $c-two;
+$lpv-accent-over: $c-fg !default;
+$lpv-bg: $c-bg-light !default; 
+$lpv-bg-player: $lpv-bg !default;
+$lpv-bg-controls: $lpv-bg !default;
+$lpv-bg-movelist: $lpv-bg !default;
+$lpv-bg-variation: $c-bg !default;
+$lpv-bg-pane: mix($lpv-accent, $lpv-bg, 15%) !default;
+$lpv-font: $c-fg !default;
+$lpv-font-shy: mix($lpv-font, $lpv-bg, 50%) !default;
+$lpv-font-accent: $c-two !default;
+$lpv-border: hsl(0, 0%, 25%) !default;
+/* move highlights */
+$lpv-inaccuracy: hsl(202, 78%, 62%) !default;
+$lpv-mistake: hsl(41, 100%, 45%) !default;
+$lpv-blunder: hsl(0, 69%, 60%) !default;
+$lpv-good-move: hsl(130, 67%, 62%) !default;
+$lpv-brilliant: hsl(129, 71%, 45%) !default;
+$lpv-interesting: hsl(307, 80%, 70%) !default;
+
+
+@import '../../node_modules/lichess-pgn-viewer/scss/_chessground.base';
+@import '../../node_modules/lichess-pgn-viewer/scss/_chessground.cburnett';
+@import '../../node_modules/lichess-pgn-viewer/scss/_chessground.transp';
+@import '../../node_modules/lichess-pgn-viewer/scss/lichess-pgn-viewer.lib';
+
+
+
+
 body,html {
   font-family: sans-serif;
   font-size: 16px;
   max-width: 40rem;
   margin: 0 auto;
+  background: #FFF;
+  box-sizing: border-box;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+article {
+  padding: 0.5rem;
+}
+
+a {
+  color: darken($c-two, 10%);
+  text-decoration: none;
+
+  &:hover {
+  color: $c-two;
+    text-decoration: underline;
+  }
+}
+
+h1, h2 {
+    color: darken($c-two, 10%);
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+table {
+  display: block;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin: 0 auto;
+  overflow-x: auto;
+  white-space: nowrap;
+  font-family: monospace;
+  border-spacing: 0;
+
+  tbody {
+    tr {
+      background-color: #FFF;
+
+      &:nth-child(odd) {
+        background-color: $c-bg;
+
+      }
+
+        td {
+          white-space: nowrap;
+          padding: 5px;
+
+          &:first-child {
+            padding-left: 0;
+          }
+        }
+    }
+
+  }
+
+  thead {
+
+    th {
+      text-align: left;
+      padding: 5px;
+
+      &:first-child {
+        padding-left: 0;
+      }
+    }
+  }
+
+}
+
+p {
+  line-height: 1.5rem;
+
+  img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+
+  }
+}
+
+ul.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+
+    li {
+      height: 40vh;
+      flex-grow: 1;
+
+      &:last-child {
+        flex-grow: 10;
+      }
+
+      img {
+        max-height: 100%;
+        min-width: 100%;
+        object-fit: cover;
+        vertical-align: bottom;
+      }
+
+    }
+
+  }
+
+div.fen-wrapper {
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+div.lpv {
+  margin: 0 auto;
+  border: 1px solid;
+
+  &:focus {
+    outline-style:solid;
+    outline-color: $c-two;
+  }
+}
+
+cg-board square.check {
+ background:radial-gradient(ellipse at center,rgba(255,132,0,1) 0%, rgba(255,132,0,0.75) 50%, rgba(255,132,0,0) 100%)
+}
+
+div.lpv__moves {
+  flex-basis: 0px;
+
+  @media screen and (max-width: $small) {
+    flex-basis: auto;
+  }
 }
