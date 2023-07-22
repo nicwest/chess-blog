@@ -13,12 +13,12 @@ U1500](https://chess-results.com/tnr790667.aspx?lan=1)
 in Leicester (UK). It's a big tournament and I'm playing in lowest division of
 the weekend congress.
 
-So far I've only played in [one rapid play
-tournament](https://chess-results.com/tnr765495.aspx?lan=1). As such this
+Prior to this I've only played in [one rapid play
+tournament](https://chess-results.com/tnr765495.aspx?lan=1). So this
 will be my first standard chess tournament and my first tournament played
 over multiple days. Additionally it's probably the first time I've left London
-for a long time and part of the reason for this trip is trying to get a feel
-for what playing chess away from home will be like.
+under my own steam for a long time and part of the reason for this trip is
+trying to get a feel for what playing chess away from home will be like.
 
 My current ECF classical rating is 1388P (the P stands for provisional,
 basically I've not played enough games to have an accurate rating). That's
@@ -33,7 +33,7 @@ obviously a mistake and I had to sit around by myself for a while before the
 game. Lesson learned!
 
 I was seeded 44 out of 55 and my first game was as black against a Junior
-called Jamie who was seeded 15th and rated 1418. I'm not going to lie, I was
+called who was seeded 15th and rated 1418. I'm not going to lie, I was
 both nervous and intimidated.
 
 My opponent opened with e4 and I played a Pirc defence. It's basically the only
@@ -105,7 +105,6 @@ Rb3+ 38. Kg4 Rg3+ { white resigned } 0-1
 
 So I won a game which I was not expecting!  Regardless of the outcome of the
 next games I can go home happy.
-
 
 For future reference I'm going to try and itemise expenditure in as much
 detail as possible. Part of that is for me for budgeting purposes (I'm about

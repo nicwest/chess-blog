@@ -1,7 +1,6 @@
 ---
 title: "British Championship: Day 2"
 date: 2023-07-22T21:08:17+0100
-draft: true
 tags:
 - chess
 - tournament
@@ -49,8 +48,8 @@ who was rated 1444K. He was also a grown up with a bunch of games under his
 belt which yet again had me worried!
 
 I opened with `1. e4` hoping to play the vienna where I feel pretty confident.
-Alas `1. ... d4` the Scandi followed, which I'm ok with online but I think
-against someone that plays this a lot, competitively I'm probably at a massive
+Alas `1. ... d4` and the Scandi followed, which I'm ok with online but I think
+against someone that plays this a lot, competitively, I'm probably at a massive
 disadvantage. I took the pawn and then panicked when he played `2.
 ... Nf6` which is not something I've seen before. I spent the next couple of
 moves playing "defend the pawn, no no wait develop something, ANYTHING!",

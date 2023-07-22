@@ -8,7 +8,7 @@
   </article>
 
   <section class="tags">
-  <p> Tags: 
+    <p> <strong><a href="{{ref . "/tags"}}">Tags</a></strong>: 
   {{ with .Param "tags" }}
     {{ $len := len .}}
     {{ range $i, $tag := (. | sort) }} 

@@ -8,7 +8,7 @@
     <section>
       <h2>Recent posts</h2>
       <ul>
-        {{ range ( where .Site.RegularPages "Type" "posts" | first 3 ) }}
+        {{ range ( where .Site.RegularPages "Type" "posts" | first 10 ) }}
           <li>
             <a href="{{ .Permalink }}"><em>{{ .Date.Format "2006-01-02" }}</em> - {{ .Title }}</a>
           </li>

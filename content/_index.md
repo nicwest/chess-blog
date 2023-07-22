@@ -5,7 +5,7 @@ people wanting to do something similar (and/or provide evidence to my mum that
 I'm not dead yet)
 
 If you want a brief intro to my background and motivations, start with
-[Welcome to my midlife crisis](/posts/welcome-to-my-midlife-crisis-placeholder)
+[Welcome to my midlife crisis]({{< ref "/posts/welcome-to-my-midlife-crisis-placeholder" >}})
 
 Current ratings:
 * [FIDE](https://ratings.fide.com/profile/343429904)
