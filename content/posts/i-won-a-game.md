@@ -79,14 +79,16 @@ the Sicilian, and I could have prepared better. I didn't though and he played
 it.
 
 Currently I'm playing a wing gambit against the Sicilian that Gotham chess
-recommends in his otherwise awesome "E4 New York Style" course, and I REALLY
-don't like it. In comparison to the rest of my opening repertoire it's very
-pawn centric and very sharp with a lot of theory and ideas I've not really
-digested properly yet. Find something more straight forward is pretty high on
-my todo list. Gotham also suggest the Snyder variation with 2. Bb2.
+recommends in his otherwise awesome ["E4 New York
+Style"](https://chessly.com/courses/812a7981-0439-4de4-a86b-35b9833eea25)
+course, and I REALLY don't like it. In comparison to the rest of my opening
+repertoire it's very pawn centric and very sharp with a lot of theory and
+ideas I've not really digested properly yet. Find something more straight
+forward is pretty high on my todo list. Gotham also suggest the Snyder
+variation with 2. Bb2.
 
 Probably because I don't really understand this opening Josh ended up crushing
-me right up to the point where he left a his knight hanging and I was able to
+me right up to the point where he left his knight hanging and I was able to
 trade down to a winning endgame. I got lucky and winning this game had very
 little to do with me. Pretty much every move I made made my position weaker.
 So yay! On the plus side I didn't horribly blunder anything or leave a pawn
