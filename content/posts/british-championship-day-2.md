@@ -130,8 +130,8 @@ got some good advice on what sword to buy or how to kill vampires or
 something.
 
 {{<gallery>}}
-/imgs/grob-0.jpg
-/imgs/grob-1.jpg
+{{<static "/imgs/grob-0.jpg" >}}
+{{<static "/imgs/grob-1.jpg" >}}
 {{</gallery>}}
 
 **New rule**: if I'm going somewhere, I'm going to try and track down and read
