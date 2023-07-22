@@ -127,6 +127,6 @@ tempor tempor gravida. Nullam quis bibendum magna.
 {{< gallery >}}
 https://media.tenor.com/vxFNoJHV3I4AAAAC/chiquichico.gif
 https://m.media-amazon.com/images/I/51V75tQGAAL.__AC_SX300_SY300_QL70_ML2_.jpg
-/imgs/kermit-rain.jpg
+{{<static "/imgs/kermit-rain.jpg" >}} 
 https://media.tenor.com/TtuWYyYO1XkAAAAC/monkey-look-the-other-way.gif
 {{</ gallery >}}
