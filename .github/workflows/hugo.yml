@@ -42,6 +42,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
+          lfs: true
           submodules: recursive
       - name: Setup Pages
         id: pages
@@ -66,7 +67,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: "https://nicwest.github.io/chess-blog/"
     runs-on: ubuntu-latest
     needs: build
     steps:
