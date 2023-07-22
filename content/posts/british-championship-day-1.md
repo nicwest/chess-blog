@@ -103,7 +103,7 @@ Kf2 Rxb1) 32... Bxa1 33. Re1 Be5 34. Kf2 Rb2+ 35. Kf3 Rb5 36. Rd1 Bc7 37. e4
 Rb3+ 38. Kg4 Rg3+ { white resigned } 0-1
 {{</pgn>}}
 
-So I won a game which I was not expecting!  Regardless of the outcome of the
+I won a game which I was not expecting! Regardless of the outcome of the
 next games I can go home happy.
 
 For future reference I'm going to try and itemise expenditure in as much

@@ -13,7 +13,7 @@ tags:
 ---
 
 Day 2 of the tournament started at 09:15 which traditionally is a pretty scary
-time for me. I woke up earlier that I wanted at 07:00 and decided since I was
+time for me. I woke up earlier than I wanted at 07:00 and decided since I was
 awake anyway [I would go for a
 run](https://www.strava.com/activities/9497622504).  I'm a big fat man.
 Running for me is about trying to stave off an early heart attack, it's not
@@ -47,8 +47,8 @@ after my win yesterday I was playing white on board 7 against the 10th seed
 who was rated 1444K. He was also a grown up with a bunch of games under his
 belt which yet again had me worried!
 
-I opened with `1. e4` hoping to play the vienna where I feel pretty confident.
-Alas `1. ... d4` and the Scandi followed, which I'm ok with online but I think
+I opened with `1. e4` hoping to play the Vienna where I feel pretty confident.
+Alas `1. ... d4` and the Scandi followed, which I'm OK with online but I think
 against someone that plays this a lot, competitively, I'm probably at a massive
 disadvantage. I took the pawn and then panicked when he played `2.
 ... Nf6` which is not something I've seen before. I spent the next couple of
@@ -117,13 +117,13 @@ I had 3 hours to kill so I walked around Leicester town centre for a bit.
 
 I recently listened to an episode of [the perpetual chess podcast
 with Stjepan Tomić](https://www.perpetualchesspod.com/new-blog/2019/3/12/episode-117-stjepan-tomi-adult-improver-series)
-(who I liked alot btw) and he talked about building up a library of chess
+(who I liked a lot by the way) and he talked about building up a library of chess
 books by searching second hand shops. I thought this was a cool idea so I
 headed out to find a second hand book shop to see if I could find anything
 interesting and I feel like I struck gold with *"The Tactical Grob"* by Claude F.
 Bloodgood. The book is about 50 pages long and while it doesn't have a date it
 is old enough to still be in descriptive notation (which I actually quite like).
-I also suspect it predates widespread usage of computers as black appears to
+I also suspect it pre-dates widespread usage of computers as black appears to
 have a -1.49 advantage within 4 moves of the mainline. It's got a funny name
 though so that puts it firmly on my to read list. Also Bloodgood's probably
 got some good advice on what sword to buy or how to kill vampires or
@@ -136,7 +136,7 @@ something.
 
 **New rule**: if I'm going somewhere, I'm going to try and track down and read
 an old chess book. Maybe I can even review them here at some point! Come
-september I'm going to have a lot time on my hands.
+September I'm going to have a lot time on my hands.
 
 Also I bought some combat shorts from an army surplus store (not strictly
 chess related I guess), and went for a posh lunch in a restaurant before
@@ -231,7 +231,7 @@ White wins. } 1-0
 {{</pgn>}}
 
 I actually feel pretty good about this game even though I lost. I think I
-played well (untill I didn't) and the reason I lost the game was because I did
+played well (until I didn't) and the reason I lost the game was because I did
 something stupid, that I know and understand was stupid and I'm actively
 working on fixing it.  Would it have been nice to win another game, go 3 for 3
 and play on the top board for all the marbles tomorrow? For sure, but it's
