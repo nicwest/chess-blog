@@ -4,7 +4,8 @@ import { Chessground } from 'chessground';
 let games = document.getElementsByClassName("pgn");
 for (var i = 0; i < games.length; i++) {
   let ele = games.item(i);
-  let data = ele.innerText;
+  let data = ele.innerText.trim();
+  console.log(data);
   LichessPgnViewer(ele, {
     pgn: data,
     showClocks: false,

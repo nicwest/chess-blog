@@ -1,6 +1,21 @@
 {{ define "main" }}
   <main>
+    <article>
     <h1>Chess Blog!</h1>
     {{ .Content }}
+    </article>
+
+    <section>
+      <h2>Recent posts</h2>
+      <ul>
+        {{ range ( where .Site.RegularPages "Type" "posts" | first 3 ) }}
+          <li>
+            <a href="{{ .Permalink }}"><em>{{ .Date.Format "2006-01-02" }}</em> - {{ .Title }}</a>
+          </li>
+        {{ end }}
+      </ul>
+    </section>
   </main>
+
+
 {{ end }}
