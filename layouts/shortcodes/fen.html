@@ -4,4 +4,8 @@
       {{ .Inner }}
       </pre>
     </div>
+
+      {{ if .Get "desc" }}
+      <cite>{{ .Get "desc" }}</cite>
+      {{ end }}
   </div>
