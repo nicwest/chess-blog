@@ -131,8 +131,8 @@ moves that were 100% findable if I just spent the time to look for them. This
 is a problem and I need to work on it.
 
 Also just for the record I ate a banana on route to the club, HOWEVER, Tom ate
-one mid game at around about the time that crushed me. This started as a joke
-but now I'm seriously beginning to believe in the power of the banana.
+one mid game at around about the time that he crushed me. This started as a
+joke but now I'm seriously beginning to believe in the power of the banana.
 
 On the plus side the first outing with the Rat Defence was a fun adventure and
 worth exploring further.
